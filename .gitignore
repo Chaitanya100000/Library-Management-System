@@ -1,0 +1,13 @@
+@"
+*.class
+*.log
+.env
+.env.*
+!.env.example
+bin/
+out/
+build/
+target/
+.idea/
+.vscode/
+"@ | Set-Content .gitignore
